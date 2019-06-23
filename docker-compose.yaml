@@ -1,0 +1,13 @@
+version: '3.3'
+
+services:
+
+  azat:
+    image: apenjiyev/docker:v6
+    ports: 
+      - "8080:80"
+  frank:
+    image: fahriddin23/my-app:v5
+    ports:
+      - "8081:80"
+    
